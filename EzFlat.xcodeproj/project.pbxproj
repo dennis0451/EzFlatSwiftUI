@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		865C52582C1E2CFE000EBC8D /* EzFlatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865C52572C1E2CFE000EBC8D /* EzFlatApp.swift */; };
+		865C525A2C1E2CFE000EBC8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865C52592C1E2CFE000EBC8D /* ContentView.swift */; };
+		865C525C2C1E2CFF000EBC8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865C525B2C1E2CFF000EBC8D /* Assets.xcassets */; };
+		865C525F2C1E2CFF000EBC8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865C525E2C1E2CFF000EBC8D /* Preview Assets.xcassets */; };
+		865C52692C1E2CFF000EBC8D /* EzFlatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865C52682C1E2CFF000EBC8D /* EzFlatTests.swift */; };
+		865C52732C1E2CFF000EBC8D /* EzFlatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865C52722C1E2CFF000EBC8D /* EzFlatUITests.swift */; };
+		865C52752C1E2CFF000EBC8D /* EzFlatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865C52742C1E2CFF000EBC8D /* EzFlatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		865C52652C1E2CFF000EBC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865C524C2C1E2CFE000EBC8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 865C52532C1E2CFE000EBC8D;
+			remoteInfo = EzFlat;
+		};
+		865C526F2C1E2CFF000EBC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865C524C2C1E2CFE000EBC8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 865C52532C1E2CFE000EBC8D;
+			remoteInfo = EzFlat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		865C52542C1E2CFE000EBC8D /* EzFlat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzFlat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		865C52572C1E2CFE000EBC8D /* EzFlatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzFlatApp.swift; sourceTree = "<group>"; };
+		865C52592C1E2CFE000EBC8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		865C525B2C1E2CFF000EBC8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		865C525E2C1E2CFF000EBC8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		865C52642C1E2CFF000EBC8D /* EzFlatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzFlatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		865C52682C1E2CFF000EBC8D /* EzFlatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzFlatTests.swift; sourceTree = "<group>"; };
+		865C526E2C1E2CFF000EBC8D /* EzFlatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzFlatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		865C52722C1E2CFF000EBC8D /* EzFlatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzFlatUITests.swift; sourceTree = "<group>"; };
+		865C52742C1E2CFF000EBC8D /* EzFlatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzFlatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		865C52512C1E2CFE000EBC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865C52612C1E2CFF000EBC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865C526B2C1E2CFF000EBC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		865C524B2C1E2CFE000EBC8D = {
+			isa = PBXGroup;
+			children = (
+				865C52562C1E2CFE000EBC8D /* EzFlat */,
+				865C52672C1E2CFF000EBC8D /* EzFlatTests */,
+				865C52712C1E2CFF000EBC8D /* EzFlatUITests */,
+				865C52552C1E2CFE000EBC8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		865C52552C1E2CFE000EBC8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				865C52542C1E2CFE000EBC8D /* EzFlat.app */,
+				865C52642C1E2CFF000EBC8D /* EzFlatTests.xctest */,
+				865C526E2C1E2CFF000EBC8D /* EzFlatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		865C52562C1E2CFE000EBC8D /* EzFlat */ = {
+			isa = PBXGroup;
+			children = (
+				865C52572C1E2CFE000EBC8D /* EzFlatApp.swift */,
+				865C52592C1E2CFE000EBC8D /* ContentView.swift */,
+				865C525B2C1E2CFF000EBC8D /* Assets.xcassets */,
+				865C525D2C1E2CFF000EBC8D /* Preview Content */,
+			);
+			path = EzFlat;
+			sourceTree = "<group>";
+		};
+		865C525D2C1E2CFF000EBC8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				865C525E2C1E2CFF000EBC8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		865C52672C1E2CFF000EBC8D /* EzFlatTests */ = {
+			isa = PBXGroup;
+			children = (
+				865C52682C1E2CFF000EBC8D /* EzFlatTests.swift */,
+			);
+			path = EzFlatTests;
+			sourceTree = "<group>";
+		};
+		865C52712C1E2CFF000EBC8D /* EzFlatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				865C52722C1E2CFF000EBC8D /* EzFlatUITests.swift */,
+				865C52742C1E2CFF000EBC8D /* EzFlatUITestsLaunchTests.swift */,
+			);
+			path = EzFlatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		865C52532C1E2CFE000EBC8D /* EzFlat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865C52782C1E2CFF000EBC8D /* Build configuration list for PBXNativeTarget "EzFlat" */;
+			buildPhases = (
+				865C52502C1E2CFE000EBC8D /* Sources */,
+				865C52512C1E2CFE000EBC8D /* Frameworks */,
+				865C52522C1E2CFE000EBC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzFlat;
+			productName = EzFlat;
+			productReference = 865C52542C1E2CFE000EBC8D /* EzFlat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		865C52632C1E2CFF000EBC8D /* EzFlatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865C527B2C1E2CFF000EBC8D /* Build configuration list for PBXNativeTarget "EzFlatTests" */;
+			buildPhases = (
+				865C52602C1E2CFF000EBC8D /* Sources */,
+				865C52612C1E2CFF000EBC8D /* Frameworks */,
+				865C52622C1E2CFF000EBC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865C52662C1E2CFF000EBC8D /* PBXTargetDependency */,
+			);
+			name = EzFlatTests;
+			productName = EzFlatTests;
+			productReference = 865C52642C1E2CFF000EBC8D /* EzFlatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		865C526D2C1E2CFF000EBC8D /* EzFlatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865C527E2C1E2CFF000EBC8D /* Build configuration list for PBXNativeTarget "EzFlatUITests" */;
+			buildPhases = (
+				865C526A2C1E2CFF000EBC8D /* Sources */,
+				865C526B2C1E2CFF000EBC8D /* Frameworks */,
+				865C526C2C1E2CFF000EBC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865C52702C1E2CFF000EBC8D /* PBXTargetDependency */,
+			);
+			name = EzFlatUITests;
+			productName = EzFlatUITests;
+			productReference = 865C526E2C1E2CFF000EBC8D /* EzFlatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		865C524C2C1E2CFE000EBC8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					865C52532C1E2CFE000EBC8D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					865C52632C1E2CFF000EBC8D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 865C52532C1E2CFE000EBC8D;
+					};
+					865C526D2C1E2CFF000EBC8D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 865C52532C1E2CFE000EBC8D;
+					};
+				};
+			};
+			buildConfigurationList = 865C524F2C1E2CFE000EBC8D /* Build configuration list for PBXProject "EzFlat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 865C524B2C1E2CFE000EBC8D;
+			productRefGroup = 865C52552C1E2CFE000EBC8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				865C52532C1E2CFE000EBC8D /* EzFlat */,
+				865C52632C1E2CFF000EBC8D /* EzFlatTests */,
+				865C526D2C1E2CFF000EBC8D /* EzFlatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		865C52522C1E2CFE000EBC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865C525F2C1E2CFF000EBC8D /* Preview Assets.xcassets in Resources */,
+				865C525C2C1E2CFF000EBC8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865C52622C1E2CFF000EBC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865C526C2C1E2CFF000EBC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		865C52502C1E2CFE000EBC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865C525A2C1E2CFE000EBC8D /* ContentView.swift in Sources */,
+				865C52582C1E2CFE000EBC8D /* EzFlatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865C52602C1E2CFF000EBC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865C52692C1E2CFF000EBC8D /* EzFlatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865C526A2C1E2CFF000EBC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865C52752C1E2CFF000EBC8D /* EzFlatUITestsLaunchTests.swift in Sources */,
+				865C52732C1E2CFF000EBC8D /* EzFlatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		865C52662C1E2CFF000EBC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 865C52532C1E2CFE000EBC8D /* EzFlat */;
+			targetProxy = 865C52652C1E2CFF000EBC8D /* PBXContainerItemProxy */;
+		};
+		865C52702C1E2CFF000EBC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 865C52532C1E2CFE000EBC8D /* EzFlat */;
+			targetProxy = 865C526F2C1E2CFF000EBC8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		865C52762C1E2CFF000EBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		865C52772C1E2CFF000EBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		865C52792C1E2CFF000EBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EzFlat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EzFlat.EzFlat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		865C527A2C1E2CFF000EBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EzFlat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EzFlat.EzFlat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		865C527C2C1E2CFF000EBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EzFlat.EzFlatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzFlat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EzFlat";
+			};
+			name = Debug;
+		};
+		865C527D2C1E2CFF000EBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EzFlat.EzFlatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzFlat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EzFlat";
+			};
+			name = Release;
+		};
+		865C527F2C1E2CFF000EBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EzFlat.EzFlatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EzFlat;
+			};
+			name = Debug;
+		};
+		865C52802C1E2CFF000EBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EzFlat.EzFlatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EzFlat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		865C524F2C1E2CFE000EBC8D /* Build configuration list for PBXProject "EzFlat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865C52762C1E2CFF000EBC8D /* Debug */,
+				865C52772C1E2CFF000EBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865C52782C1E2CFF000EBC8D /* Build configuration list for PBXNativeTarget "EzFlat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865C52792C1E2CFF000EBC8D /* Debug */,
+				865C527A2C1E2CFF000EBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865C527B2C1E2CFF000EBC8D /* Build configuration list for PBXNativeTarget "EzFlatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865C527C2C1E2CFF000EBC8D /* Debug */,
+				865C527D2C1E2CFF000EBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865C527E2C1E2CFF000EBC8D /* Build configuration list for PBXNativeTarget "EzFlatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865C527F2C1E2CFF000EBC8D /* Debug */,
+				865C52802C1E2CFF000EBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 865C524C2C1E2CFE000EBC8D /* Project object */;
+}
